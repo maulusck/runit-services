@@ -1,0 +1,5 @@
+# glances conf
+
+#USER="_glances"
+CONFIG_FILE="/etc/glances.conf"
+OPTS="--quiet --export influxdb"

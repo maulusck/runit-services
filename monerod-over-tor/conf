@@ -1,0 +1,12 @@
+# conf
+
+CONFIG_FILE="/etc/monerod.conf"
+DATA_DIR="/media/xmr/.bitmonero"
+
+OPTS="\
+--p2p-bind-ip 127.0.0.1 \
+--no-igd --non-interactive \
+--config-file $CONFIG_FILE \
+--prune-blockchain --hide-my-port \
+--data-dir $DATA_DIR\
+"

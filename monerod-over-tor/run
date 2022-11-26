@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# fail if tor is not running
+sv check tor >/dev/null || exit 1
+
+[ -r ./conf ] && . ./conf
+
+exec chpst -u monero:monero /bin/torsocks /usr/bin/monerod $OPTS
