@@ -1,4 +1,4 @@
-**This service is meant to be run on a user runsvdir, as per [https://docs.voidlinux.org/config/services/user-services.html](this) link.**
+**This service is meant to be run on a user runsvdir, as per (https://docs.voidlinux.org/config/services/user-services.html)[this].**
 ** It can also be run as root, but this will require to `chpst` everytime and you get better control limiting this to an unprivileged user.
 
 #### Quote from Void linux devs on a runsvdir example:
