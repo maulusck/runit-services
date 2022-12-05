@@ -1,7 +1,7 @@
 **This service is meant to be run on a user runsvdir, as per [this](https://docs.voidlinux.org/config/services/user-services.html).
 ** It can also be run as root, but this will require to `chpst` everytime and you get better control limiting this to an unprivileged user.
 
-### Quote from Void linux devs on a runsvdir example:
+## Quote from Void linux devs on a runsvdir example:
 
 Sometimes it can be nice to have user-specific runit services. For example, you might want to open an ssh tunnel as the current user, run a virtual machine, or regularly run daemons on your behalf. The most common way to do this is to create a system-level service that runs `runsvdir(8)` as your user, in order to start and monitor the services in a personal services directory.
 
