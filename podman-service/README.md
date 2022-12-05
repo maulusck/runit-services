@@ -5,7 +5,7 @@
 
 Sometimes it can be nice to have user-specific runit services. For example, you might want to open an ssh tunnel as the current user, run a virtual machine, or regularly run daemons on your behalf. The most common way to do this is to create a system-level service that runs `runsvdir(8)` as your user, in order to start and monitor the services in a personal services directory.
 
-For example, you could create a service called `/etc/sv/runsvdir-<username>` with the following run script, which should be executable:
+For example, you could create a service called `/etc/sv/runsvdir-<username>` with the following run script, which should be executable:  
 `
 #!/bin/sh
 
