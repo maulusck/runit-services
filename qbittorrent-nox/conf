@@ -1,0 +1,4 @@
+# conf
+USER=service
+HOME=/home/$USER
+OPTS="--profile=$HOME/.config"

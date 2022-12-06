@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -r conf ] && . ./conf
+exec chpst -u $USER:$USER $(/usr/bin/env qbittorrent-nox) $OPTS
