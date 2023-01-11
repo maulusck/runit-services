@@ -2,4 +2,4 @@
 
 [ -r conf ] && . ./conf
 cd $DIR
-exec /usr/bin/openvpn $FILE
+exec /usr/bin/openvpn $CONF
