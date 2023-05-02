@@ -1,5 +1,5 @@
 #!/bin/sh
 
-[ -r conf ] && . ./conf
+[ -r conf ] && . ./conf || exit 1
 
 exec $DIR/novnc_proxy $OPTS --vnc $HOST:$PORT
