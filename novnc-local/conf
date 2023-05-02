@@ -1,10 +1,10 @@
 # novnc conf
 
-NOVNC='/usr/local/bin/novnc_proxy'
-HOST='localhost'
-PORT='5901'
-USER='_novnc'
-GROUP='_novnc'
-CERT='/etc/ssl/custom/cert.pem'
-KEY='/etc/ssl/custom/key.pem'
-OPTS='--ssl-only --cert $CERT --key $KEY'
+NOVNC="/usr/local/bin/novnc_proxy"
+HOST="localhost"
+PORT="5901"
+USER="_novnc"
+GROUP="_novnc"
+CERT="/etc/ssl/custom/cert.pem"
+KEY="/etc/ssl/custom/key.pem"
+OPTS="--ssl-only --cert $CERT --key $KEY"
