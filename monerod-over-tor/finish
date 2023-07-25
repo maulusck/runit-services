@@ -1,4 +1,5 @@
 #!/bin/sh
-echo 'Sending stop signal...'
-exec /usr/bin/monerod stop_daemon
-sleep 30
+
+[ -r ./conf ] && . ./conf
+
+exec $MONEROD stop_daemon

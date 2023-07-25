@@ -1,6 +1,6 @@
 # vncserver conf
 
 DISPLAY=:1
-OPTS='-fg'
-USER='<username>'
-HOME='/home/<username>'
+OPTS="-fg"
+USER="_vnc"
+HOME="/home/_vnc"

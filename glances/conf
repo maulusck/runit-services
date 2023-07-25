@@ -1,5 +1,5 @@
-# glances conf
+# conf
 
-#USER="_glances"
+USER="root"
 CONFIG_FILE="/etc/glances.conf"
 OPTS="--quiet -w"

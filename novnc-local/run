@@ -2,4 +2,4 @@
 
 [ -r conf ] && . ./conf
 
-exec $DIR/novnc_proxy $OPTS --vnc $HOST:$PORT
+exec chpst -u $USER:$USER $NOVNC/utils/novnc_proxy $OPTS --vnc $HOST:$PORT

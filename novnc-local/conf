@@ -1,6 +1,9 @@
-# novnc conf
+# conf
 
-DIR=/usr/local/bin/noVNC/utils
-HOST=localhost
-PORT=5901
-OPTS='--ssl-only'
+USER="_novnc"
+
+NOVNC="/usr/local/share/noVNC"
+
+HOST="localhost"
+PORT="5901"
+OPTS="--ssl-only"
