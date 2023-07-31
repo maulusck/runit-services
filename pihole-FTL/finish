@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+
 ### BEGIN INIT INFO
 # Provides:          pihole-FTL
 # Required-Start:    $remote_fs $syslog $network

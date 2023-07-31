@@ -1,5 +1,10 @@
 # conf
 
+USER="monero"
+
+TORSOCKS="/bin/torsocks"
+MONEROD="/usr/bin/monerod"
+
 CONFIG_FILE="/etc/monerod.conf"
 DATA_DIR="/media/xmr/.bitmonero"
 

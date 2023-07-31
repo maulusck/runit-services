@@ -2,6 +2,10 @@
 
 [ -r conf ] && . ./conf || exit 1
 
+<<<<<<< HEAD
 groups="$(id -Gn "$USER" | tr ' ' ':')"
 
 exec chpst -u $USER:$groups $NOVNC $OPTS --vnc $HOST:$PORT
+=======
+exec chpst -u $USER:$USER $NOVNC/utils/novnc_proxy $OPTS --vnc $HOST:$PORT
+>>>>>>> a35597184e7f2f1ddce1cb88b76be4d6a3dc0444

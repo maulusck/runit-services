@@ -2,4 +2,4 @@
 
 #### These scripts are tailored around Void Linux's version of runit, they may or may not work according to your specific OS configuration.
 
-On Void, remember to `ln -sfv /run/runit/supervise.<service> /etc/sv/<service>/supervise` before enabling the service. The directories are Void specific, they may change according to your runit configuration.
+Remember to `ln -sfv /run/runit/supervise.<service> /etc/sv/<service>/supervise` before enabling the service. Service directories may change according to your runit configuration.
