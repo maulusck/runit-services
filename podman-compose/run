@@ -1,4 +1,4 @@
 #!/bin/sh
 [ -r conf ] && . ./conf
 "cd $(dirname $COMPOSE)"
-exec podman-compose up $OPTS -f $COMPOSE
+exec podman-compose -f $COMPOSE up $OPTS
