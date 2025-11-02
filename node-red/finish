@@ -1,5 +1,0 @@
-#!/bin/sh
-
-[ -r conf ] && . ./conf
-
-podman stop $CONTAINER
