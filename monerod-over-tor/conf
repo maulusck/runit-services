@@ -1,17 +1,12 @@
-# conf
-
 USER="monero"
-
 TORSOCKS="/bin/torsocks"
 MONEROD="/usr/bin/monerod"
-
-CONFIG_FILE="/etc/monerod.conf"
+CONFIG="/etc/monerod.conf"
 DATA_DIR="/media/xmr/.bitmonero"
-
 OPTS="\
 --p2p-bind-ip 127.0.0.1 \
 --no-igd --non-interactive \
---config-file $CONFIG_FILE \
+--config-file $CONFIG \
 --prune-blockchain --hide-my-port \
 --data-dir $DATA_DIR\
 "

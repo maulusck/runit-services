@@ -1,5 +1,3 @@
 #!/bin/sh
-
 [ -r conf ] && . ./conf
-
-exec chpst -u $USER:$USER glances -C $CONFIG_FILE $OPTS
+exec chpst -u $USER:$USER glances -C $CONFIG $OPTS

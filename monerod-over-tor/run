@@ -1,8 +1,5 @@
 #!/bin/sh
-
 # fail without tor
 sv check tor >/dev/null || exit 1
-
 [ -r ./conf ] && . ./conf
-
 exec chpst -u $USER:$USER $TORSOCKS $MONEROD $OPTS

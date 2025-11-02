@@ -1,5 +1,0 @@
-#!/bin/sh
-
-[ -r conf ] && . ./conf
-cd $DIR
-exec /usr/bin/openvpn $CONF

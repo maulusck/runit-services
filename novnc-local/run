@@ -1,7 +1,4 @@
 #!/bin/sh
-
 [ -r conf ] && . ./conf || exit 1
-
 groups="$(id -Gn "$USER" | tr ' ' ':')"
-
-exec chpst -u $USER:$groups $NOVNC $OPTS --vnc $HOST:$PORT
+exec chpst -u $USER:$groups $NOVNC $OPTS

@@ -1,5 +1,3 @@
 #!/bin/sh
-
 [ -r conf ] && . ./conf
-
 HOME=$HOME exec chpst -u $USER:$USER /usr/bin/vncserver -kill $DISPLAY
