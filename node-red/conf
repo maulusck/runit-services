@@ -1,4 +1,0 @@
-# service/node-red/conf
-
-CONTAINER="node-red"
-OPTS=""

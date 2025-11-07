@@ -1,5 +1,3 @@
 #!/bin/sh
-
 [ -r conf ] && . ./conf
-
-podman stop $CONTAINER
+exec podman kill --signal $SIG $CONTAINER

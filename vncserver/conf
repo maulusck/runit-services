@@ -1,5 +1,3 @@
-# vncserver conf
-
 DISPLAY=:1
 OPTS="-fg"
 USER="_vnc"

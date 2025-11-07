@@ -1,4 +1,1 @@
-#!/bin/sh
-
-DIR='/etc/openvpn/.vpn/'
-CONF='.ovpn'
+CONF='/etc/openvpn/server.conf'

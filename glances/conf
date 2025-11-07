@@ -1,5 +1,3 @@
-# conf
-
 USER="root"
-CONFIG_FILE="/etc/glances.conf"
+CONFIG="/etc/glances.conf"
 OPTS="--quiet -w"
