@@ -1,0 +1,6 @@
+#!/bin/sh
+exec 2>&1
+
+[ -r conf ] && . ./conf
+
+exec /usr/local/bin/temp-throttle $MAX_TEMP | tee -a /var/log/temp-throttle.log
