@@ -1,3 +1,4 @@
 CONTAINER=""
-OPTS=""
+IMAGE=""
+OPTS="--name $CONTAINER"
 SIG="TERM"
